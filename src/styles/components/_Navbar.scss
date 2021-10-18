@@ -1,0 +1,28 @@
+.navbar-container{
+    background-color: $header;
+    display: flex;
+    justify-content: flex-end;
+
+    
+    input{
+        border-radius: 25px;
+        background-color: $primary;
+        color: white;
+        outline: 0;
+        box-shadow: transparent;
+    } 
+
+}
+
+.moviesBtn{
+    border-radius: 5px;
+    background-color: $primary;
+    margin-right: 15px;
+    color: white;
+
+    &:hover{
+        color: white;
+        background-color: $success;
+    }
+
+}
